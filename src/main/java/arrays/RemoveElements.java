@@ -5,17 +5,12 @@ public class RemoveElements {
         int slow=0;
         int quick = 0;
         while(quick<nums.length) {
-            if (nums[quick] == val) {
-                if (nums[slow] == val) {
-                } else {
-                    slow = quick;
-                }
-            } else {
+            if (nums[quick] != val) {
                 nums[slow] = nums[quick];
+                slow++;
             }
             quick++;
-
         }
-        return slow+1;
+        return slow;
     }
 }

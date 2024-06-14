@@ -1,9 +1,8 @@
 package tree;
 
-import dynamicPlan.Rob2;
 import util.TreeNode;
 
-public class BuildTree {
+public class BuildTreePreorderInorder {
     public static TreeNode buildTree(int[] preorder, int[] inorder){
         return helper(preorder,0,preorder.length-1, inorder, 0, inorder.length-1);
     }

@@ -1,2 +1,5 @@
-package temp2;public class Son {
+package temp2;
+
+public class Son extends Father{
+
 }

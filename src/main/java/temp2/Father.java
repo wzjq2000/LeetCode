@@ -1,2 +1,4 @@
-package temp2;public class Father {
+package temp2;
+
+public class Father {
 }

@@ -1,2 +1,4 @@
-package temp4;public class A {
+package temp4;
+
+public interface A {
 }
